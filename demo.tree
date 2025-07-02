@@ -1,4 +1,109 @@
 Delmajl
+ ┣ .git
+ ┃ ┣ hooks
+ ┃ ┃ ┣ applypatch-msg.sample
+ ┃ ┃ ┣ commit-msg.sample
+ ┃ ┃ ┣ fsmonitor-watchman.sample
+ ┃ ┃ ┣ post-update.sample
+ ┃ ┃ ┣ pre-applypatch.sample
+ ┃ ┃ ┣ pre-commit.sample
+ ┃ ┃ ┣ pre-merge-commit.sample
+ ┃ ┃ ┣ pre-push.sample
+ ┃ ┃ ┣ pre-rebase.sample
+ ┃ ┃ ┣ pre-receive.sample
+ ┃ ┃ ┣ prepare-commit-msg.sample
+ ┃ ┃ ┣ push-to-checkout.sample
+ ┃ ┃ ┣ sendemail-validate.sample
+ ┃ ┃ ┗ update.sample
+ ┃ ┣ info
+ ┃ ┃ ┗ exclude
+ ┃ ┣ logs
+ ┃ ┃ ┣ refs
+ ┃ ┃ ┃ ┣ heads
+ ┃ ┃ ┃ ┃ ┗ master
+ ┃ ┃ ┃ ┗ remotes
+ ┃ ┃ ┃ ┃ ┗ origin
+ ┃ ┃ ┃ ┃ ┃ ┗ master
+ ┃ ┃ ┗ HEAD
+ ┃ ┣ objects
+ ┃ ┃ ┣ 02
+ ┃ ┃ ┃ ┗ 7cbb610e3ca053441f743c9d129d05389edcfb
+ ┃ ┃ ┣ 1b
+ ┃ ┃ ┃ ┗ 01a83303b837eea524250494b9335a9c0e0114
+ ┃ ┃ ┣ 28
+ ┃ ┃ ┃ ┗ 645f5a42b8d115849e479ff245caf548ced5f9
+ ┃ ┃ ┣ 2d
+ ┃ ┃ ┃ ┗ ca420cd91df341fdbd22f7c08aeb21a09ee311
+ ┃ ┃ ┣ 30
+ ┃ ┃ ┃ ┗ da0c56cd07b82f6bbe2bf36c02e33f3681a574
+ ┃ ┃ ┣ 33
+ ┃ ┃ ┃ ┗ 90d4313e4f1becc06806eb31bd06621a26b1a1
+ ┃ ┃ ┣ 4d
+ ┃ ┃ ┃ ┗ 9d0ed8b462bfcfb9592decf2e3300c57c1d994
+ ┃ ┃ ┣ 5d
+ ┃ ┃ ┃ ┗ 49c8edb80cb67ea78c31d0c632b049cf05e41b
+ ┃ ┃ ┣ 60
+ ┃ ┃ ┃ ┗ 51d56bb6d4516feb7117a800dcc9ceb680c58d
+ ┃ ┃ ┣ 68
+ ┃ ┃ ┃ ┗ 8de03e5b36c6bb9dfa05a8c6097235cb295ab8
+ ┃ ┃ ┣ 6e
+ ┃ ┃ ┃ ┗ 36db7505191efb024cf9270a2b84ee230ce48c
+ ┃ ┃ ┣ 71
+ ┃ ┃ ┃ ┗ 6e9efee13134f41119f1ee1e9a50889a9f03fb
+ ┃ ┃ ┣ 77
+ ┃ ┃ ┃ ┗ ff0575c21305e4853dfd926cd6b33e97bcca24
+ ┃ ┃ ┣ 7b
+ ┃ ┃ ┃ ┗ 1ee19f194b6ec5ea215f8e72d34b78adea5b48
+ ┃ ┃ ┣ 82
+ ┃ ┃ ┃ ┗ 1cbe4ca08c32ffde75fb63722469e44c19d635
+ ┃ ┃ ┣ 86
+ ┃ ┃ ┃ ┗ 07a44bdda13fedef9508b3664d46ce6400768b
+ ┃ ┃ ┣ 88
+ ┃ ┃ ┃ ┗ 25ce1d6eb230463a94c349a9f02df9cc87ef43
+ ┃ ┃ ┣ 8a
+ ┃ ┃ ┃ ┣ 03640e046285c9b82a00c8f24b4ad328cda448
+ ┃ ┃ ┃ ┗ 07775b6abc1eb9e9fc02f96377441b3d4b8fbf
+ ┃ ┃ ┣ 9c
+ ┃ ┃ ┃ ┗ b9928c2c90dacbea3eff60a46f50203129c040
+ ┃ ┃ ┣ a2
+ ┃ ┃ ┃ ┗ 11ce3e6e0b69a48c7166d2d3dc72dda3e7eec9
+ ┃ ┃ ┣ ac
+ ┃ ┃ ┃ ┗ eaf75fbc2d40b2e81f1dbcb8f1799c2cd1e52d
+ ┃ ┃ ┣ b5
+ ┃ ┃ ┃ ┣ 6539e7085c9ca64ee06515677d4ff4989d78cd
+ ┃ ┃ ┃ ┗ bd05c19a4156d8c5d4c148136d6c3192fd7d9d
+ ┃ ┃ ┣ b8
+ ┃ ┃ ┃ ┗ bbfcc9ac59cb05e2c6d6cd91aa478ef23f2ca0
+ ┃ ┃ ┣ c1
+ ┃ ┃ ┃ ┗ dc7023d394ecbb49d9455251845febb7c3af58
+ ┃ ┃ ┣ c6
+ ┃ ┃ ┃ ┗ a0c1bc21a5657b51fcb5b27149f12d092f491f
+ ┃ ┃ ┣ cf
+ ┃ ┃ ┃ ┗ c6aea725891c06fa2f49a53ba21d8ad0911e0e
+ ┃ ┃ ┣ d2
+ ┃ ┃ ┃ ┗ e589a342416f59f69f8ecc0582520a3b09aa58
+ ┃ ┃ ┣ ed
+ ┃ ┃ ┃ ┗ 93e49514093acd45061c5f2658c39669b72176
+ ┃ ┃ ┣ f1
+ ┃ ┃ ┃ ┗ 04bd43dd2447e93b92d567060a206bd3bd9fbc
+ ┃ ┃ ┣ f3
+ ┃ ┃ ┃ ┗ 85d228404d0e4bf7773f6f1c0c1942d65f9250
+ ┃ ┃ ┣ f6
+ ┃ ┃ ┃ ┗ 8273cceb99753f21d27f28bb140db5a03643ce
+ ┃ ┃ ┣ info
+ ┃ ┃ ┗ pack
+ ┃ ┣ refs
+ ┃ ┃ ┣ heads
+ ┃ ┃ ┃ ┗ master
+ ┃ ┃ ┣ remotes
+ ┃ ┃ ┃ ┗ origin
+ ┃ ┃ ┃ ┃ ┗ master
+ ┃ ┃ ┗ tags
+ ┃ ┣ COMMIT_EDITMSG
+ ┃ ┣ config
+ ┃ ┣ description
+ ┃ ┣ HEAD
+ ┃ ┗ index
  ┣ .vscode
  ┃ ┗ settings.json
  ┣ data
