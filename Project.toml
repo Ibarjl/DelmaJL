@@ -1,0 +1,16 @@
+name = "DelmaJL"
+uuid = "$(julia -e 'using UUIDs; println(uuid4())')"
+authors = ["Your Name <your.email@example.com>"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+SQLite = "0aa819cd-b072-5ff4-a722-6bc24af294d9"
+YAML = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+XMLDict = "228000da-037f-5747-90a9-8195ccbf91a5"
+Gtk = "4c0ca9eb-093a-5379-98c5-f87ac0bbbf44"
+
+[compat]
+julia = "1.6"

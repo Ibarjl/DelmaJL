@@ -1,0 +1,38 @@
+Delmajl
+ ┣ .vscode
+ ┃ ┗ settings.json
+ ┣ data
+ ┃ ┣ componentes
+ ┃ ┗ examples
+ ┣ docs
+ ┃ ┣ src
+ ┃ ┗ make.jl
+ ┣ scripts
+ ┃ ┗ setup.jl
+ ┣ src
+ ┃ ┣ Core
+ ┃ ┃ ┣ Core.jl
+ ┃ ┃ ┣ solicitudes.jl
+ ┃ ┃ ┣ stock.jl
+ ┃ ┃ ┗ types.jl
+ ┃ ┣ DataHandling
+ ┃ ┃ ┣ DataHandling.jl
+ ┃ ┃ ┗ unified_handler.jl
+ ┃ ┣ GUI
+ ┃ ┃ ┣ GUI.jl
+ ┃ ┃ ┗ main_window.jl
+ ┃ ┣ Utils
+ ┃ ┃ ┣ helpers.jl
+ ┃ ┃ ┗ Utils.jl
+ ┃ ┗ DelmaJL.jl
+ ┣ test
+ ┃ ┣ runtests.jl
+ ┃ ┗ test_core.jl
+ ┣ version_fusionada
+ ┃ ┗ src
+ ┃ ┃ ┗ Core
+ ┃ ┃ ┃ ┗ types.jl
+ ┣ .gitignore
+ ┣ demo.tree
+ ┣ Project.toml
+ ┗ README.md

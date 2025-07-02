@@ -1,0 +1,26 @@
+# Archivos generados por Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Entornos locales
+/local/
+/.vscode/
+
+# Archivos de documentación generados
+/docs/build/
+
+# Base de datos
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# Manifest.toml (generado automáticamente)
+/Manifest.toml
