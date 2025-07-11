@@ -23,15 +23,7 @@ function generate_text_with_gemini(prompt_text::String; model_name::String="gemi
         "Content-Type" => "application/json"
     )
 
-    body = Dict(
-        "contents" => [
-            Dict(
-                "parts" => [
-                    Dict("text" => prompt_text)
-                ]
-            )
-        ]
-    )
+    body = Dict("contents" => [Dict("parts" => [Dict("text" => prompt_text)])])
 
     try
         response = HTTP.post(api_url, headers, JSON.json(body))
@@ -41,8 +33,8 @@ function generate_text_with_gemini(prompt_text::String; model_name::String="gemi
             # Navegar por la estructura de la respuesta para obtener el texto
             if haskey(json_response, "candidates") && !isempty(json_response["candidates"])
                 if haskey(json_response["candidates"][1], "content") &&
-                   haskey(json_response["candidates"][1]["content"], "parts") &&
-                   !isempty(json_response["candidates"][1]["content"]["parts"])
+                    haskey(json_response["candidates"][1]["content"], "parts") &&
+                    !isempty(json_response["candidates"][1]["content"]["parts"])
                     return json_response["candidates"][1]["content"]["parts"][1]["text"]
                 end
             end
